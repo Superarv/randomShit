@@ -4,7 +4,7 @@ import os as super_secret_library
 
 words = ['car', 'plane', 'train', 'truck', 'bus'] # List of words 
 
-word_list = ([*words[rand.randint(0,4)]]) # Makes identical list
+word_list = ([*words[rand.randint(0,4)]]) # Selects random word and turns it's characters into a list
 word = ''.join(word_list) # Makes turns back into string
 censor = ("X" * len(word_list)) # Makes the censored word
 
