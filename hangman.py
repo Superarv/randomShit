@@ -9,7 +9,7 @@ word = ''.join(word_list) # Makes turns back into string
 censor = ("X" * len(word_list)) # Makes the censored word
 
 
-print("Welcome to the game of hangman! You have five guesses to get the word. Enter a letter, or a group of them in the correct order for one of your guesses.")
+print("Welcome to the game of hangman! You have five guesses to get the word. Enter a letter, or enter /word {word}.")
 
 chances = 5
 
